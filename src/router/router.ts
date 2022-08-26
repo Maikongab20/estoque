@@ -1,13 +1,11 @@
 import Router from 'express';
+import { createTypeController } from '../useCases/createType/indesx';
 
 const router = Router();
 
 
-router.get('/test', (request, response) => {
-  return response.json({
-    name: "test",
-    password: "test"
-  });
+router.post('/test', (request, response) => {
+  return createTypeController.handler(request, response);
 });
 
 

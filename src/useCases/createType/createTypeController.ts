@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
-import { createUserUsecase } from "./createTypeUseCase";
+import { createTypeUsecase } from "./createTypeUseCase";
 
 
 
-export class CreateuserController {
+export class CreatTypeController {
 
   constructor(
-    private createuseruseCase: createUserUsecase
+    private createTypeUseCase: createTypeUsecase
   ) { }
 
   async handler(request: Request, response: Response): Promise<Response> {
@@ -14,7 +14,7 @@ export class CreateuserController {
     const { name } = request.body;
 
     try {
-      await this.createuseruseCase.execute({
+      await this.createTypeUseCase.execute({
         name
       });
 

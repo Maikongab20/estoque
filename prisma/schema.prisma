@@ -15,13 +15,3 @@ model type {
   name     String   @unique
   createAt DateTime @default(now())
 }
-
-model Product {
-  id          String   @id
-  name        String
-  barcode     String
-  description String
-  qtd         Int
-  created_at  DateTime @default(now())
-  updated_at  DateTime @default(now()) @updatedAt
-}

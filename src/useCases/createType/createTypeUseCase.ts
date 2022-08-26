@@ -2,7 +2,7 @@ import { Type } from "../../entities/Type";
 import { ITypeRepository } from "../../repositories/ITypeRepository"
 import { ICreateTypeRequestDTO } from "./createTypeDTO"
 
-export class createUserUsecase {
+export class createTypeUsecase {
 
   constructor(
     private typeRepository: ITypeRepository

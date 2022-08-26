@@ -1,4 +1,2 @@
-nesta api está sendo aplicado o conseito de SOLID no node com typscrip.
-
-# Router HTTPS
+nesse projeto esta senco aplicaso os conceitos de SOLID com node e typescript.
   
