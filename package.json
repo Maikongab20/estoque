@@ -1,0 +1,23 @@
+{
+  "name": "estoque",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/router/servidor.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "4.2.1",
+    "express": "^4.18.1",
+    "express-async-error": "^0.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/uuid": "^8.3.4",
+    "dotenv": "^16.0.1",
+    "prisma": "^4.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  }
+}
